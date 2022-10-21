@@ -1,0 +1,81 @@
+<!--#set var="title" value="OptimizedHTML 5" -->
+<!--#include virtual="/parts/header.html" -->
+
+<div class="preferences preferences__light">
+	<div class="preferences__form">
+		<div class="preferences__title">Preferences</div>
+		<div class="preferences__desc">On this page you can configure the main system parameters available for customization
+		</div>
+		<div class="preferences__tools">
+			<div class="tool tool__company">
+				<div class="tool__title company__title">Company Title</div>
+				<input class="tool__desc" type="text" name="company" placeholder="Star and Moon" id="company__value">
+			</div>
+			<form class="tool tool__firstDay">
+				<label class="tool__title FirstDay__title">First Day</label>
+				<select class="tool__desc" name="day" id="firstDay">
+					<option value="Monday">Monday</option>
+					<option value="Tuesday ">Tuesday</option>
+					<option value="Wednesday ">Wednesday </option>
+					<option value="Thursday ">Thursday</option>
+					<option value="Friday">Friday </option>
+					<option value="Saturday">Saturday </option>
+				</select>
+			</form>
+			<form class="tool tool__containerWidth">
+				<label class="tool__title containerWidth__title">Container Width</label>
+				<select class="tool__desc" name="containerWidth" id="containerWidth">
+					<option value="Fixed">Fixed</option>
+					<option value="Static">Static</option>
+					<option value="Relative">Relative</option>
+					<option value="Absolute">Absolute</option>
+					<option value="Sticky">Sticky</option>
+				</select>
+			</form>
+			<form class="tool tool__homePage">
+				<label class="tool__title homePage__title">Home Page</label>
+				<select class="tool__desc" name="homePage" id="homePage">
+					<option value="Starred Projects">Starred Projects</option>
+					<option value="value 1">value 1</option>
+					<option value="value 2">value 2</option>
+				</select>
+			</form>
+			<div class="tool tool__size">
+				<div class="tool__title size__title">Indent Size</div>
+				<input class="tool__desc" type="text" name="Star and Moon" placeholder="Default" id="size__value">
+			</div>
+			<div class="tool tool__personalCode">
+				<div class="tool__title personalCode__title">Personal Code</div>
+				<div class="personalCode__desc__wrap">
+					<div class="personalCode__value">
+						<input class="tool__desc" type="text" name="personalCode" placeholder="1645" id="personalCode__value--1">
+						<input class="tool__desc" type="text" name="personalCode" placeholder="1566" id="personalCode__value--2">
+						<input class="tool__desc" type="text" name="personalCode" placeholder="1249" id="personalCode__value--3">
+					</div>
+					<p class="personalCode__desc">12 digits</p>
+				</div>
+				
+			</div>
+			<div class="tool tool__theme">
+				<div class="tool__title theme__title">Theme</div>
+				<input class="tool__desc" type="radio" name="theme" id="theme__Light"><label for="theme__Light">Light</label>
+				<input class="tool__desc" type="radio" name="theme" id="theme__Dark"><label for="theme__Dark">Dark</label>
+			</div>
+		</div>
+		<div class="preferences__buttons">
+			<button class="button button__save">Apply and Save</button>
+			<button class=" button button__canel">Cancel</button>
+		</div>
+	</div>
+	<div class="preferences__footer">
+		<img class="preferences__imgBg" src="images/dist/preferences__imgBg.svg" alt="preferences">
+		<div class="preferences__annotation">
+			<div class="annotation__date">2020-2022</div>
+			<a href="#" class="annotation__service">Terms of Service</a>
+			<p> and </p>
+			<a href="#" class="annotation__conditions">Conditions</a>
+		</div>
+	</div>
+</div>
+
+<!--#include virtual="/parts/footer.html" -->
